@@ -24,6 +24,13 @@ public class MainClass {
         ageNew[0] = 10;
         ageNew[5] = 51;
         System.out.println("" + ageNew[5] + ageNew[4]);
+        int counter = 0;
+        for(int i=2; i < ageNew.length; i++){
+            ageNew[i] = 10 * (i + 1);
+            System.out.println(ageNew[i]);
+            counter ++;
+//            System.out.println("line = " + counter);
+        }
 
         System.out.println("---The End---");
     }
