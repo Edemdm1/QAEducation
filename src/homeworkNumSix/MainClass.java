@@ -43,9 +43,16 @@ public class MainClass {
         }
 
         System.out.println();
-        ArrayList<Integer> hwListReverse = new ArrayList<Integer>(hwList);
-        for (int i = hwListReverse.size() -1; i >=0 ; i = i - 1) {
-            System.out.println(hwListReverse.size()- i + "." + hwListReverse.get(i));
+        ArrayList<Integer> hwListReverse = new ArrayList<Integer>();
+
+        for (int i = hwList.size() - 1; i >= 0 ; i = i - 1) {
+            hwListReverse.add(hwList.get(i));
+            System.out.println(hwListReverse);
+        }
+
+        System.out.println();
+        for (int i = 0; i < hwListReverse.size(); i++) {
+            System.out.println(i +1 + "." + hwListReverse.get(i));
         }
     }
 }
