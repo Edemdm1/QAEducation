@@ -18,5 +18,16 @@ public class MainClass {
         int result = Calc.sum(20,25);
         Calc.sum(result, 35);
         Calc.sum(Calc.sum(20, 25),35);
+
+        Calc calc = new Calc();
+        calc.sum("test", "auto");
+        calc.sum("test1", " auto");
+
+//        33, "55", -> 3355
+
+        calc.sumIntString(33, "55");
+
+        calc.doubleSum(2,3);
+
     }
 }

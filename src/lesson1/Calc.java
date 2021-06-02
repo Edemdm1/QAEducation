@@ -12,4 +12,19 @@ public class Calc {
         System.out.println("Result = " + temRes);
         return temRes;
     }
+
+    public String sumIntString(int var1, String var2){
+        String res = var1 + var2;
+        System.out.println(res);
+        return res;
+    }
+
+    /**
+     * sum two ints
+     * @param var1
+     * @param var2
+     */
+    public void doubleSum(int var1, int var2){
+        System.out.println(sum(var1, var2)*2);
+    }
 }
