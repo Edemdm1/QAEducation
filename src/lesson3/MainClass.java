@@ -27,12 +27,12 @@ public class MainClass {
             }
             System.out.println();
         }
-        for (int i = ourMassiveMassive.length-1; i >= 0; i = i-1) {
-            for (int j = 0; j < ourMassiveMassive[i].length; j++) {
-                System.out.print(ourMassiveMassive[i][j] + " ");
-            }
-            System.out.println();
-        }
+//        for (int i = ourMassiveMassive.length-1; i >= 0; i = i-1) {
+//            for (int j = 0; j < ourMassiveMassive[i].length; j++) {
+//                System.out.print(ourMassiveMassive[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
 
         //7 8 6
         //8 6 8
