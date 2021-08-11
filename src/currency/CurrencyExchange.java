@@ -11,6 +11,7 @@ public class CurrencyExchange {
         ListOfCurrency.addCurrency(new Btc(10000));
 
 
+
         int currencyNumber = 100;
         do {
             CurrencyMenu.printCurrencyMenu();

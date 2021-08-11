@@ -1,0 +1,7 @@
+2021-17-06 21:01:37  INFO [LogExample.class] : Information
+2021-17-06 21:01:37  ERROR [LogExample.class] : Error info
+2021-17-06 21:03:48  INFO [LogExample.class] : Information
+2021-17-06 21:03:48  ERROR [LogExample.class] : Error info
+2021-17-06 21:10:26  INFO [LogExample.class] : Information
+2021-17-06 21:10:26  DEBUG [LogExample.class] : Debug info
+2021-17-06 21:10:26  ERROR [LogExample.class] : Error info
